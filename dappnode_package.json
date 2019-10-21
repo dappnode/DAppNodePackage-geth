@@ -1,29 +1,11 @@
 {
   "name": "geth.dnp.dappnode.eth",
-  "version": "0.1.1",
-  "upstreamVersion": "1.9.3",
+  "version": "0.1.2",
+  "upstreamVersion": "1.9.6",
   "shortDescription": "Geth is the official Go implementation of the Ethereum protocol.",
   "description": "Ethereum is a global, open-source platform for decentralized applications where you can write code that controls digital value, runs exactly as programmed, and is accessible anywhere in the world.",
-  "avatar": "/ipfs/QmbxQDuXW8AjrP4UKbG7Aothehvzg5PdLDBn7cdGWjvpmU",
   "type": "library",
   "chain": "ethereum",
-  "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
-    "restart": "always",
-    "ports": [
-      "30303",
-      "30303/udp",
-      "30304/udp"
-    ],
-    "volumes": [
-      "data:/root/.ethereum"
-    ],
-    "environment": [
-      "EXTRA_OPTS=--rpcapi eth,net,web3,txpool"
-    ]
-  },
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Mariano Conti (nanexcool) (hhttps://github.com/nanexcool)",
@@ -43,5 +25,11 @@
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-geth/issues"
+  },
+  "avatar": "/ipfs/QmbxQDuXW8AjrP4UKbG7Aothehvzg5PdLDBn7cdGWjvpmU",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": ""
   }
 }

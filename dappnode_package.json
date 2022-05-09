@@ -1,7 +1,7 @@
 {
   "name": "geth.dnp.dappnode.eth",
   "version": "0.1.17",
-  "upstreamVersion": "v1.10.17",
+  "upstreamVersion": "v1.10.15",
   "upstreamRepo": "ethereum/go-ethereum",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "Geth is the official Go implementation of the Ethereum protocol.",

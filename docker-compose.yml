@@ -14,6 +14,7 @@ services:
     ports:
       - 30303/tcp
       - 30303/udp
+    stop_grace_period: 5m
     restart: unless-stopped
 volumes:
   geth: {}

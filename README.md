@@ -58,6 +58,7 @@ var web3 = new Web3('ws://my.geth.dappnode:8546')
 web3.eth.getBlockNumber().then(console.log)
 ```
 In case you are running it locally:
+
 ```
 var Web3 = require('web3');
 var web3 = new Web3('ws://127.0.0.1:8546')

@@ -16,5 +16,9 @@ services:
       - "30403:30403/tcp"
       - "30403:30403/udp"
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 32768M
 volumes:
   geth: {}

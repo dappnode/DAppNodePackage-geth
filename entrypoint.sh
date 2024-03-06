@@ -42,6 +42,7 @@ exec geth \
   --ws.addr 0.0.0.0 \
   --port ${P2P_PORT} \
   --metrics \
+  --state.scheme ${STATE_SCHEME:-path} \
   --metrics.addr 0.0.0.0 \
   --authrpc.addr 0.0.0.0 \
   --authrpc.port 8551 \

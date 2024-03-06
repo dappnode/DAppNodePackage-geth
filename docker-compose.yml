@@ -12,6 +12,7 @@ services:
       - "EXTRA_OPTION=--http.api eth,engine,net,web3,txpool"
       - P2P_PORT=30403
       - SYNCMODE=snap
+      - STATE_SCHEME=null
     ports:
       - "30403:30403/tcp"
       - "30403:30403/udp"
